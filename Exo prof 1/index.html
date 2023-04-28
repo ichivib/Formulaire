@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main2.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" placeholder="Veuillez indiquer votre nom">
+        <label for="prenom">Prénom :</label>
+        <input type="text" name="prénom" id="prenom">
+        <label for="age">Age :</label><br>
+        <input type="number" id="age" name="age" min="18" max="30">
+        <label for="ddn">Date de naissance</label>
+        <input type="date" id="ddn" name="ddn" min="2018-09-01">
+        <label for="cp"> CP : </label>
+        <input name="cp" id="cp" type="text" pattern="[0-9]{5}">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

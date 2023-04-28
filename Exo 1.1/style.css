@@ -1,0 +1,92 @@
+/* début du h1 */
+h1 {
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family: "Ma fonte", sans-serif;
+    font-style: italic;
+}
+/* fin du h1 */
+
+/* début de image */
+/* fin de image */
+
+/* début du body */
+
+
+body {
+    background-image: url("image/nature.jpg");
+    background-size: cover;
+}
+
+form {
+    width: 400px;  
+    font-family: 'Roboto', sans-serif;
+    margin: 2% auto;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid yellow;
+    background-color: rgb(19, 19, 19);
+    /* border-radius: 1%; */
+}
+
+@font-face {
+    font-family: "Ma fonte";
+    src: url("police/cardo/cardo-bold.woff") format("woff");
+    font-style: oblique;
+} 
+
+@font-face {
+    font-family: "Ma fonte";
+    src: url("police/cardo/cardo-italic.woff") format("woff");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Ma fonte";
+    src: url("police/cardo/cardo-regular.woff") format("woff");
+    font-style: normal;
+}
+
+input, select {
+    width: 60%;
+    display: block; grid;
+    margin: 2%;
+    padding: 1%;
+    border: 1px solid yellow;
+    
+}
+
+label {
+    color: white;
+    font-size: large;
+    width: 70%;
+    margin: 1%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+p {
+    font-family: "Ma fonte", sans-serif;
+    font-style: italic;
+    color: white;
+    
+}
+
+.block2 {
+    font-family: "Ma fonte", sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2%;
+    padding: 0.05%;
+}
+
+.bouton {
+    color: white;
+    background-color: greenyellow;
+    font-size: small;
+
+}
+
+
+/* in du body */
+

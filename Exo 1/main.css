@@ -1,0 +1,6 @@
+h1 {
+  color: white;
+  background-color: rgb(16, 16, 107);
+  border: 2px solid rgb(216, 36, 156);
+ 
+  display: flex; justify-content: flex-end;
